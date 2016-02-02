@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A8D807EB1C5FEFD90053183A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D807EA1C5FEFD90053183A /* AppDelegate.swift */; };
-		A8D807ED1C5FEFD90053183A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D807EC1C5FEFD90053183A /* ViewController.swift */; };
 		A8D807F01C5FEFD90053183A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D807EE1C5FEFD90053183A /* Main.storyboard */; };
 		A8D807F21C5FEFD90053183A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D807F11C5FEFD90053183A /* Assets.xcassets */; };
 		A8D807F51C5FEFD90053183A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D807F31C5FEFD90053183A /* LaunchScreen.storyboard */; };
+		A8D807FF1C600ABE0053183A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D807FE1C600ABE0053183A /* RootViewController.swift */; };
+		A8D808011C6011CF0053183A /* Meetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D808001C6011CF0053183A /* Meetup.swift */; };
+		A8D808051C604F0A0053183A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D808041C604F0A0053183A /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A8D807E71C5FEFD90053183A /* MeetMeUpSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMeUpSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D807EA1C5FEFD90053183A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8D807EC1C5FEFD90053183A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8D807EF1C5FEFD90053183A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8D807F11C5FEFD90053183A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8D807F41C5FEFD90053183A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8D807F61C5FEFD90053183A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D807FE1C600ABE0053183A /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = ../RootViewController.swift; sourceTree = "<group>"; };
+		A8D808001C6011CF0053183A /* Meetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meetup.swift; sourceTree = "<group>"; };
+		A8D808041C604F0A0053183A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				A8D807EA1C5FEFD90053183A /* AppDelegate.swift */,
-				A8D807EC1C5FEFD90053183A /* ViewController.swift */,
+				A8D808001C6011CF0053183A /* Meetup.swift */,
+				A8D808041C604F0A0053183A /* DetailViewController.swift */,
+				A8D807FE1C600ABE0053183A /* RootViewController.swift */,
 				A8D807EE1C5FEFD90053183A /* Main.storyboard */,
 				A8D807F11C5FEFD90053183A /* Assets.xcassets */,
 				A8D807F31C5FEFD90053183A /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8D807ED1C5FEFD90053183A /* ViewController.swift in Sources */,
+				A8D807FF1C600ABE0053183A /* RootViewController.swift in Sources */,
 				A8D807EB1C5FEFD90053183A /* AppDelegate.swift in Sources */,
+				A8D808011C6011CF0053183A /* Meetup.swift in Sources */,
+				A8D808051C604F0A0053183A /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,7 @@
 				A8D807FB1C5FEFD90053183A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
